@@ -19,9 +19,15 @@ You will initially be directed to a home page, upon clicking on `Let's Get Start
 
 ## Client Scripts
 
-To run the client script just run `./pglatin.sh -w <word>`. 
+To run the client script `./pglatin.sh -w <word>`. The script returns a JSON response.
 
 `Example: ./pglatin.sh -w hello`
+
+`JSON Response:
+{
+  "original": "hello", 
+  "translated": "ellohay"
+}'
 
 # Looking Ahead
 
