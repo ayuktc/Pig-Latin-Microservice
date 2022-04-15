@@ -17,5 +17,12 @@ After running `docker run -it --name python-container -p 8080:8080 piglatin_tran
 
 You will initially be directed to a home page, upon clicking on `Let's Get Started!` you will be able to enter anything that you want translated to pig latin!
 
+## Client Scripts
 
+To run the client script just run `./pglatin.sh -w <word>`. 
 
+`Example: ./pglatin.sh -w hello`
+
+# Looking Ahead
+
+Currently, the Pig Latin API returns an html response. However, one imporvement I would love to make is for the API to return a JSON response instead. 
