@@ -1,0 +1,71 @@
+.h1{
+    color:hotpink;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 5vh;
+    text-shadow: 8px 16px 8px rgb(168, 168, 168);
+}
+
+.p{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 50px;
+}
+
+.buttonHolder{
+    text-align: center;
+    padding-top: 45px;
+}
+
+.button{
+    height: 40px;
+    color: white;
+    width: 500px;
+    font-size: 30px;
+    border-radius: 20px;
+    border-color: deeppink;
+    background-color: deeppink;
+}
+
+.translate_button_holder{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.translate_input_box {
+    height: 60px;
+    width: 800px;
+    font-size: 40px;
+    font-family: "Times New Roman";
+    color: black;
+    border-radius: 15px;
+    border-color: deeppink;
+}
+
+.translate_button {
+    height: 80px;
+    width: 800px;
+    font-family: cursive;
+    font-size: 35px;
+    background-color: lightpink;
+    text-align: center;
+    border-color: lightpink;
+    margin-top: 100px;
+}
+
+.final_response{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    color: deeppink;
+    padding: 50px;
+}
+
+.image{
+    background-image: url("../background/pig2.jpg");
+    opacity: 0.95;
+    backdrop-filter: blur(4px);
+}

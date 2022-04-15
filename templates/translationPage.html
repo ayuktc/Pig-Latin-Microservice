@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../static/style/style.css">
+    <title>Pig Latin Translation Page</title>
+</head>
+<body class="image">
+    <div class="main">
+        <h1 class="h1">Pig Latin Translator!</h1>
+        <form action="/translation/piglatin", method="POST" class="translate_button_holder">
+            <div class="translate_button_holder">
+                <input type="text" name="words" placeholder="What would you like to translate?" class="translate_input_box">
+            </div>
+            <a href="http://0.0.0.0/translation/piglatin">
+                <button type="submit" class="translate_button">Translate to Pig Latin!</button>
+            </a>
+        </form>
+        {% if translated %}
+            <p class="final_response">Original text: "{{ original }}"</p>
+            <p class="final_response">Translated to Pig Latin : "{{ translated }}"</p>
+        {% endif %}
+    </div>
+</body>
+</html>
