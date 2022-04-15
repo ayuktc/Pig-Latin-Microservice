@@ -27,7 +27,7 @@ To run the client script `./pglatin.sh -w <word>`. The script returns a JSON res
 {
   "original": "hello", 
   "translated": "ellohay"
-}'
+}`
 
 # Looking Ahead
 
