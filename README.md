@@ -25,4 +25,4 @@ To run the client script just run `./pglatin.sh -w <word>`.
 
 # Looking Ahead
 
-Currently, the Pig Latin API returns an html response. However, one imporvement I would love to make is for the API to return a JSON response instead. 
+Currently, there are two APIs. One which returns an html response, while the other API returns a JSON repsonse. In the future, the ideal case will be to have one API which returns a JSON response.
