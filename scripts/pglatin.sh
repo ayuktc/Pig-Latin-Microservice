@@ -8,7 +8,7 @@ help() {
 
 send_request() {
 local lword="$1"
-    url=\'http://localhost:8080/translation/piglatin\'
+    url=\'http://localhost:8080/translation/piglatin/json\'
     command="curl  --location --request POST ${url} --form 'words'=\"$lword\""
 #    url --location --request POST 'http://127.0.0.1:8080/translation/piglatin' \
 #--form 'words="abcd"'
