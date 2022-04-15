@@ -7,9 +7,9 @@ help() {
 }
 
 send_request() {
-local lword=$1
+local lword="$1"
     url=\'http://localhost:8080/translation/piglatin\'
-    command="curl  --location --request POST ${url} --form 'words'=$lword"
+    command="curl  --location --request POST ${url} --form 'words'=\"$lword\""
 #    url --location --request POST 'http://127.0.0.1:8080/translation/piglatin' \
 #--form 'words="abcd"'
     echo "Executing following command to get message: " "$command"
@@ -24,12 +24,12 @@ if [[ $# -le 0 || $# -gt 2 ]]; then
 fi
 
 
-
+IFS=$'\t'
 while [[ $# -gt 0 ]]; do
     key="$1"
     case $key in
         -w|--word)
-        WORD=$2
+        WORD="$2"
         if [[ -z $WORD ]]; then
             help
         fi
